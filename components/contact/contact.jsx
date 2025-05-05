@@ -17,7 +17,7 @@ export default function Contact() {
       <div className={classes.container}>
         <h2 className={classes.header}>Contact Lizi</h2>
         <form
-          action="https://formsubmit.co/lukabrazi365@gmail.com"
+          action="https://formsubmit.co/liziramishvilicello@gmail.com"
           method="POST"
           className={classes.form}
         >
