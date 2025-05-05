@@ -1,42 +1,62 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+  --font-title: var(--font-playfair);
+  --font-body: var(--font-lato);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+  --bg: #0d0d0d;
+  --text: #e5e7eb;
+  --accent: #facc15;
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --accent-soft: #facc1588;
+  --accent-glow: rgba(250, 204, 21, 0.25);
+  --accent-deep: #bfa316;
+  --border: #1f1f1f;
+  --glass-bg: rgba(255, 255, 255, 0.05);
 }
 
 * {
-  box-sizing: border-box;
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-title);
+  color: var(--text);
+}
+
+p,
+li,
+ul,
+a,
+button {
+  font-family: var(--font-body);
+  color: var(--text);
 }
 
 a {
-  color: inherit;
   text-decoration: none;
+  cursor: pointer;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+li,
+ul {
+  list-style: none;
+}
+
+section {
+  z-index: 900;
 }
