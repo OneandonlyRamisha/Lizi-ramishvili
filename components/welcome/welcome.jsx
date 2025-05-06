@@ -55,13 +55,13 @@ export default function Welcome() {
         containerFadeOut ? `${classes.containerFadeUp}` : ""
       }`}
     >
-      <h1
+      <h5
         className={`${classes.welcomeText} ${
           fadeIn ? `${classes.fadeIn}` : `${classes.fadeOut}`
         }`}
       >
         {messages[index]}
-      </h1>
+      </h5>
     </div>
   );
 }
