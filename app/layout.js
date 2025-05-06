@@ -58,6 +58,89 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${playfair.variable} ${lato.variable}`}>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              name: "Lizi Ramishvili",
+              alternateName: "Liziramishvili",
+              birthDate: "1997-05-06",
+              birthPlace: {
+                "@type": "Place",
+                name: "Tbilisi, Georgia",
+              },
+              nationality: "Georgian",
+              jobTitle: "Classical Cellist / Musician",
+              url: "https://liziramishvili.com",
+              image: "https://liziramishvili.com/cover.jpg",
+              address: {
+                "@type": "PostalAddress",
+                addressLocality: "Tbilisi",
+                addressCountry: "Georgia",
+              },
+              sameAs: [
+                "https://www.instagram.com/lizi_ramishvili_/",
+                "https://www.facebook.com/p/Lizi-Ramishvili-100080192833048/",
+              ],
+              description:
+                "Lizi Ramishvili is an internationally recognized classical cellist from Georgia. She has performed at Carnegie Hall, Berlin Konzerthaus, and festivals around the world, winning prestigious awards and collaborating with world-renowned musicians.",
+              alumniOf: [
+                {
+                  "@type": "EducationalOrganization",
+                  name: "Paliashvili Central Music School",
+                },
+                {
+                  "@type": "EducationalOrganization",
+                  name: "Kronberg Academy Pre-College",
+                },
+                {
+                  "@type": "EducationalOrganization",
+                  name: "Haute École de Musique de Genève",
+                },
+                {
+                  "@type": "EducationalOrganization",
+                  name: "Reina Sofía School of Music",
+                },
+              ],
+              award: [
+                "First Prize & Golden Nutcracker – Nutcracker International TV Competition (Russia)",
+                "Grand Prize – Renaissance International Competition (Armenia)",
+                "Tsinandali Award for Young Scholars and Artists (2017)",
+                "Eurovision Young Musicians Finalist (2012)",
+                "Forbes Georgia '30 Under 30' (2021)",
+              ],
+              memberOf: [
+                "Freixenet Symphony Orchestra",
+                "Deloitte Mozart Trio",
+                "Sibelius Ensemble",
+                "Dvořák Quartet",
+              ],
+              performerIn: [
+                "Carnegie Hall (New York)",
+                "Berlin Konzerthaus",
+                "Rheingau Music Festival",
+                "Ruhr Piano Festival",
+                "Musica Mundi",
+                "Young Euro Classic",
+                "Kronberg Academy Festival",
+                "Energy for Life",
+                "Arpeggione",
+                "Peregrinos Musicales",
+                "Al Bustan Festival",
+                "International Mstislav Rostropovich Festival",
+                "Moscow Meets Friends",
+              ],
+              worksFor: {
+                "@type": "Organization",
+                name: "Independent Artist",
+              },
+            }),
+          }}
+        />
+      </head>
       <body>
         {/* <Navigation /> */}
         {children}
