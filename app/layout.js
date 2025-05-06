@@ -51,7 +51,7 @@ export const metadata = {
     images: ["/cover.jpg"],
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: "/icon.png",
   },
 };
 
