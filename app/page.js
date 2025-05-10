@@ -1,5 +1,6 @@
 import Contact from "@/components/contact/contact";
 import Featured from "@/components/featured/featured";
+import Footer from "@/components/footer/footer";
 import HomePageAbout from "@/components/homePageAbout/homePageAbout";
 import HomeSection from "@/components/homeSection/homeSection";
 import Navigation from "@/components/navigation/navigation";
@@ -15,6 +16,7 @@ export default function Home() {
       <HomePageAbout />
       <Schedule />
       <Contact />
+      <Footer />
     </>
   );
 }

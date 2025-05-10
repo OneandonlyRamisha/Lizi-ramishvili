@@ -6,7 +6,14 @@ export default function HomeSection() {
   return (
     <section className={classes.heroSection} id="Home">
       <Navigation />
-      <video className={classes.bgVideo} autoPlay muted loop id="bg-video">
+      <video
+        className={classes.bgVideo}
+        autoPlay
+        muted
+        loop
+        id="bg-video"
+        style={{ pointerEvents: "none" }}
+      >
         <source src="/bgVid.mp4" type="video/mp4" />
         Your browser does not support HTML5 video.
       </video>
@@ -14,7 +21,7 @@ export default function HomeSection() {
 
       <div className={classes.textContainer}>
         <h1 className={classes.header}>Lizi Ramishvili</h1>
-        <h2 className={classes.subHeader}>Contemporary Cellist & Composer</h2>
+        <h2 className={classes.subHeader}>Georgian Cellist & Public Figure</h2>
 
         <div className={classes.ctaContainer}>
           <Link className={classes.ctaSecondary} href={"#About"}>

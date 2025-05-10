@@ -22,24 +22,23 @@ export default function HomePageAbout() {
             esteemed cellist Frans Helmerson. She further honed her skills at
             the Haute École de Musique de Genève in Switzerland. In 2017, she
             was accepted into the Reina Sofía School of Music in Madrid,
-            studying under Professor Jens Peter Maintz at the Aline
-            Foriel-Destezet Cello Chair. Her studies there were supported by a
-            scholarship from the Fundación Albéniz, which also provided her with
-            a Fernando Solar González cello as part of an instrument
-            scholarship.
+            studying under Professor Jens Peter Maintz. Her studies there were
+            supported by a scholarship from the Fundación Albéniz, which also
+            provided her with a Fernando Solar González cello as part of an
+            instrument scholarship.
           </p>
           <p>
             Lizi's talent has been recognized in numerous international
-            competitions. She secured the First Prize and the Golden Nutcracker
-            at the Nutcracker International TV Competition in Russia and
-            clinched the Grand Prize at the Renaissance International
+            competitions. She secured in Young age the First Prize and the
+            Golden Nutcracker at the Nutcracker International TV Competition in
+            Russia and clinched the Grand Prize at the Renaissance International
             Competition in Armenia. In 2012, she represented Georgia in the
-            Eurovision Young Musicians Competition, advancing to the
-            international finals. Her achievements were further acknowledged in
-            2017 when she received the Zhvania Tsinandali Award for Young
-            Scholars and Artists. Additionally, she has been a recipient of full
-            scholarships from the foundations of Mstislav Rostropovich, Nikolai
-            Miaskovsky, and Boris Pergamenschikov.
+            Classical Eurovision Competition. Her achievements were further
+            acknowledged in 2017 when she received the Zhvania Tsinandali Award
+            for Young Scholars and Artists. Additionally, she has been a
+            recipient of full scholarships from the foundations of Mstislav
+            Rostropovich, Nikolai Miaskovsky, Boris Pergamenschikov and Boris
+            Ustinov.
           </p>
           <p>
             Lizi's performance career is marked by appearances at some of the
@@ -47,31 +46,24 @@ export default function HomePageAbout() {
             stages of Carnegie Hall in New York and the Berlin Konzerthaus. Her
             festival engagements include the Rheingau Music Festival, Ruhr Piano
             Festival, Musica Mundi, Young Euro Classic, Kronberg Academy
-            Festival, Energy for Life, Arpeggione, Peregrinos Musicales, Al
-            Bustan, the International Mstislav Rostropovich Festival, and the
-            Moscow Meets Friends festival.
+            Festival, Energy for Life, Arpeggione, Peregrinos Musicales,
+            Schubertiade Festival, Al Bustan, the International Mstislav
+            Rostropovich Festival, the Moscow Meets Friends festival and etc.
           </p>
           <p>
             Throughout her career, Lizi has collaborated with a host of renowned
             musicians, including Ivry Gitlis, Yuri Bashmet, Renaud Capuçon,
-            Khatia Buniatishvili, Gvantsa Buniatishvili, Kazuki Yamada, and
-            Pietari Inkinen. She has performed with esteemed orchestras such as
-            the Deutsche Radio Philharmonie Saarbrücken Kaiserslautern, Real
-            Filharmonía de Galicia, Arpeggione Hohenems Chamber Orchestra,
-            Tbilisi Symphony Orchestra, Georgian Philharmonic Orchestra,
-            National Chamber Orchestra of Armenia, National Symphony Orchestra
-            of Azerbaijan, Novaya Rossiya State Symphony Orchestra, and the
-            Tchaikovsky Symphony Orchestra. Her performances have been under the
-            batons of maestros like Yuri Bashmet, Benjamin Shwartz, and Saulius
-            Sondeckis.
+            Khatia Buniatishvili, Gvantsa Buniatishvili, Kazuki Yamada,
+            Gianandrea Noseda, Pietari Inkinen and other. She has performed with
+            esteemed orchestras such as the Deutsche Radio Philharmonie
+            Saarbrücken Kaiserslautern, Real Filharmonía de Galicia, Arpeggione
+            Hohenems Chamber Orchestra, Tbilisi Symphony Orchestra, Georgian
+            Philharmonic Orchestra, National Chamber Orchestra of Armenia,
+            National Symphony Orchestra of Azerbaijan, Novaya Rossiya State
+            Symphony Orchestra, Tchaikovsky Symphony Orchestra Pan-Causian South
+            orchestra and etc.
           </p>
-          <p>
-            During her time at the Reina Sofía School of Music, Lizi has been an
-            active member of various ensembles. She has played with the
-            Freixenet Symphony Orchestra, conducted by Jaime Martín, and has
-            been part of chamber groups such as the Deloitte Mozart Trio, the
-            Sibelius Ensemble, and the Dvořák Quartet.
-          </p>
+
           <p>
             In recognition of her contributions to the arts, Lizi was featured
             in Forbes Georgia's "30 Under 30" list in the Culture & Style

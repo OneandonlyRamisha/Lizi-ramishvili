@@ -113,12 +113,12 @@
 
 /* ≤ 576px: small tablets */
 @media (max-width: 576px) {
-  .concert {
+  /* .concert {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto auto;
     row-gap: 0.75rem;
     padding: 1rem 0;
-  }
+  } */
   .ticket {
     padding: 0.6rem 1.5rem;
   }
