@@ -23,7 +23,7 @@ export default function Footer() {
           <h5 className={classes.socialHeader}>Follow Me:</h5>
           <div className={classes.socials}>
             <a
-              href="https://www.facebook.com/p/Lizi-Ramishvili-100080192833048/"
+              href="https://www.facebook.com/share/1AVM9dpN6F/?mibextid=wwXIfr"
               target="_blank"
             >
               {<FaFacebook />}
